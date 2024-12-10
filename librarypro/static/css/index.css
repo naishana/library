@@ -1,0 +1,242 @@
+/* General reset and basic styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color:white;
+    color: #dae1e1;
+}
+
+/* Navbar Styling */
+.navbar {
+    background-color: white!important; /* Primary blue color for navbar */
+}
+
+.navbar .navbar-brand {
+    color: #121111;
+   
+}
+
+.navbar .navbar-nav .nav-link {
+    color: #0c0c0c !important;
+    padding: 12px 18px;
+    font-size: 16px;
+}
+
+.navbar .navbar-nav .nav-link:hover {
+    background-color:white;
+    border-radius: 4px;
+}
+
+.navbar .navbar-nav .nav-link.active {
+    background-color: #ffffff;
+}
+
+/* Dropdown menu styling */
+.navbar .dropdown-menu {
+    background-color:#0a0a0a;
+    border: none;
+    box-shadow: 0 4px 6px rgba(10, 9, 9, 0.1);
+}
+
+.navbar .dropdown-item {
+    color: #fff !important;
+    font-size: 14px;
+}
+
+.navbar .dropdown-item:hover {
+    background-color: #fcfdff;
+}
+
+
+
+#billboard {
+  padding: 50px 0;
+  background-color: #f4f4f4; /* Light background for contrast */
+}
+
+.main-slider {
+  position: relative;
+  text-align: center;
+}
+
+.pattern-overlay {
+  background: rgba(0, 0, 0, 0.5); /* Semi-transparent overlay */
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.banner-content {
+  color: #000000; /* Text color */
+}
+
+.banner-title {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  font-weight: bold;
+  color: #0a0a0a;
+}
+
+.btn-wrap .btn {
+  background-color: #2b24f0;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #d93d1a;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+/* Overall section styling */
+#billboard {
+  position: relative;
+  padding: 60px 0;
+}
+
+/* Slider container to position items horizontally */
+.main-slider {
+  display: flex;
+  overflow: hidden; /* Hide overflow content from slider items */
+  justify-content: space-between; /* Space out slider items */
+  width: 100%;
+  align-items: center;
+  padding: 20px;
+  background-color: #c4baba;
+}
+
+/* Style each slider item */
+.slider-item {
+  display: flex; /* Enable flexbox for content and image layout */
+  justify-content: space-between; /* Space out content and image */
+  align-items: center; /* Vertically center content and image */
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+/* Banner content area */
+.banner-content {
+  max-width: 50%; /* Restrict content width to the left half */
+  padding-right: 20px; /* Add some spacing between content and image */
+  flex: 1;
+}
+
+.banner-title {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.banner-content p {
+  font-size: 16px;
+
+  margin-bottom: 20px;
+}
+
+.btn-wrap a {
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px 20px;
+  background-color: #8e2718;
+  color: white;
+  border-radius: 5px;
+}
+
+.btn-wrap a:hover {
+  background-color: #e3e3e5;
+}
+
+/* Banner image styling */
+.banner-image {
+  max-width: 100%; /* Ensure image takes up half the container */
+  height: auto; /* Maintain aspect ratio */
+  text-align: right;
+}
+
+/* Arrows styling */
+.slick-arrow {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 10px;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 2;
+}
+
+.slick-arrow .icon {
+  font-size: 18px;
+}
+
+/* Position for previous and next arrows */
+.prev {
+  left: 10px;
+}
+
+.next {
+  right: 10px;
+}
+ 
+/* quoteoftheday */
+
+.container {
+width: 100%;
+max-width: 1200px;
+margin: 0 auto;
+padding: 20px;
+}
+
+/* Main slider background and overlay */
+.main-slider {
+position: relative;
+background: url('your-image.jpg') center center / cover no-repeat;
+padding: 100px 0;
+color: #fff;
+text-align: center;
+}
+
+.pattern-overlay {
+position: relative;
+background: rgba(0, 0, 0, 0.6); /* Dark overlay for readability */
+padding: 50px;
+border-radius: 10px;
+}
+
+/* Slider item content styling */
+.banner-content {
+max-width: 800px;
+margin: 0 auto;
+}
+
+/* Title styling */
+.banner-title {
+font-size: 3rem;
+font-weight: 700;
+margin-bottom: 20px;
+color: #fff;
+}
+
+
+
+
+
